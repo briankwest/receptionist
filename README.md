@@ -1,6 +1,5 @@
 ### README.md
 
-```markdown
 # Receptionist AI Agent
 
 ## Overview
@@ -33,7 +32,7 @@ The **Receptionist AI Agent** is a virtual assistant designed to collect caller 
 **Description**: Sends an email notification using Mailgun.
 
 - **Parameters**:
-  ```json
+  ````json
   {
     "type": "object",
     "properties": {
@@ -52,13 +51,13 @@ The **Receptionist AI Agent** is a virtual assistant designed to collect caller 
     },
     "required": ["to_email", "subject", "body"]
   }
-  ```
+  ````
 
 ### 2. `send_sms_notification`
 **Description**: Sends an SMS message to a caller.
 
 - **Parameters**:
-  ```json
+  ````json
   {
     "type": "object",
     "properties": {
@@ -73,13 +72,13 @@ The **Receptionist AI Agent** is a virtual assistant designed to collect caller 
     },
     "required": ["phone_number", "message"]
   }
-  ```
+  ````
 
 ### 3. `notify_slack_channel`
 **Description**: Sends a message to a specified Slack channel.
 
 - **Parameters**:
-  ```json
+  ````json
   {
     "type": "object",
     "properties": {
@@ -94,7 +93,7 @@ The **Receptionist AI Agent** is a virtual assistant designed to collect caller 
     },
     "required": ["channel", "message"]
   }
-  ```
+  ````
 
 ---
 
